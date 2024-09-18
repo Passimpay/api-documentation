@@ -6,13 +6,13 @@ All the communication against and from our API will be signed and the signature 
 
 ## Prerequisites
 ```javascript
-const merchantId= 'your-mid';
-const secret= 'your-secret';
+const platformId= 'your-mid';
+const secret= 'your-api-key';
 const body = {
-    "operationId": "your-transaction-identifier",
-    "paymentMethod": "your-payment-method",
+    "orderId": "your-transaction-identifier",
+    "paymentId": "600",
     "amount": "100.00",
-    "merchantId": "your-mid",
+    "platformId": "your-mid",
     "firstName": "John",
     ......
     ......
@@ -44,7 +44,7 @@ function sortObject(obj) {
 #### Step 2 - Create signature.
 
 ```javascript
-const signatureContract =`${merchantId};${JSON.stringify(sortObject(body))};${secret}`
+const signatureContract =`${platformId};${JSON.stringify(sortObject(body))};${secret}`
 const signature = CryptoJS.HmacSHA256(signatureContract, secret).toString();
 ```
 
