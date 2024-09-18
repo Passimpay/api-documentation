@@ -19,8 +19,6 @@ Charge customers for goods and services
 
 [Mexico](docs/payin/mexico.md)
 
-[Check payin state](docs/instatus.md)
-
 ## Payout
 
 [Brazil](docs/payut/brazil.md)
@@ -31,4 +29,8 @@ Charge customers for goods and services
 
 [Mexico](docs/payut/mexico.md)
 
-[Check payout state](docs/outstatus.md)
+## Check status
+
+[Payin](docs/instatus.md)
+
+[Payout](docs/outstatus.md)
