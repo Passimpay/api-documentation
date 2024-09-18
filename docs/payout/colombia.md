@@ -22,7 +22,7 @@ It is an in-person payment services that provides solutions in Colombia through 
     "ipAddress": "customer-ip-address"
 }
 ```
-## Create Pix Pay-in
+## Request a payout
 ```http
 POST /payout
 
