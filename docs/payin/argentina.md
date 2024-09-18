@@ -19,7 +19,7 @@ Charge customers in Argentina using pagofacil payment method
     "ipAddress": "customer-ip-address"
 }
 ```
-## Create Pix Pay-in
+## Create Pay-in
 ```http
 POST /payin
 
