@@ -12,7 +12,6 @@ Pay customers in Brazil using the PIX payment method
     "amount": "100.00",
     "pixKey": "customer-pix-key",
     "pixKeyType": "customer-pix-key-type",
-    "shop": "submerchant-id",
     "docNumber": "71713839113",
     "email": "name@domain.com",
     "phone": "customer-phone-number",
