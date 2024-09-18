@@ -24,7 +24,7 @@ With this payment method the customer will get a push notification within their 
     "ipAddress": "customer-ip-address"
 }
 ```
-## Create Pix Pay-in
+## Request a payout
 ```http
 POST /payout
 
