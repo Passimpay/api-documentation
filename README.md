@@ -10,8 +10,12 @@ All requests require an API key.
 
 ## Payin
 Charge customers for goods and services
+
 [Brazil](docs/brazil.md)
+
 [Argentina](docs/argentina.md)
+
 [Colombia](docs/colombia.md)
+
 [Mexico](docs/mexico.md)
 
