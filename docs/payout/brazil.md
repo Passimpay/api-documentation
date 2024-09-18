@@ -32,7 +32,7 @@ x-signature: signature
 |-------------|--------|-------------------------------|
 | `platformId` | string | Platform Id |
 | `orderId` | string | Merchant's transaction ID. Should be unique. |
-| `paymentId` | integer| 601 - Argentina ARS |
+| `paymentId` | integer| 600 - Brazil BRL |
 | `amount` | string | The transaction amount. Format should have 2 decimals "100.00". |
 | `docNumber` | string | Customer's document identifier/number |
 | `pixKey` | string | Reference to customer's bank account. Could be customer's email, CPF, UUID or phone number. |
@@ -46,7 +46,7 @@ x-signature: signature
 ```json
 {
     "result": 1,
-    "transactionId": "2b750518-5e5e-4d44-a685-9733465a5a32",
+    "transactionId": "2b750518-5e5e-4d44-a685-9733465a5a32"
 }
 ```
 
@@ -54,7 +54,7 @@ x-signature: signature
 ```json
 {
     "result": 0,
-    "message": "BAD-REQUEST",
+    "message": "BAD-REQUEST"
 }
 ```
 
