@@ -16,7 +16,7 @@ Charge customers in Colombia using pse payment method
     "address": "customer-address",
 }
 ```
-## Create Pix Pay-in
+## Create Pay-in
 ```http
 POST /payin
 
