@@ -20,7 +20,7 @@ const body = {
     "address": "your-user-address",
     "ipAddress": "your-user-ip"
 }
-
+```
 #### Note: The previous body is an example, since it is dynamic and the signature can change according to the body of the request or response.
 
 #### Step 1 - Sorts the json of your request, response or callback payload alphabetically.
@@ -39,14 +39,14 @@ function sortObject(obj) {
     }
     return obj;
 }
-
+```
 
 #### Step 2 - Create signature.
 
 ```javascript
 const signatureContract =`${merchantId};${JSON.stringify(sortObject(body))};${secret}`
 const signature = CryptoJS.HmacSHA256(signatureContract, secret).toString();
-
+```
 
 #### Signature use cases:
 
