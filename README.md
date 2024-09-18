@@ -19,3 +19,12 @@ Charge customers for goods and services
 
 [Mexico](docs/payin/mexico.md)
 
+## Payout
+
+[Brazil](docs/payut/brazil.md)
+
+[Argentina](docs/payut/argentina.md)
+
+[Colombia](docs/payut/colombia.md)
+
+[Mexico](docs/payut/mexico.md)
