@@ -9,7 +9,6 @@ It is an in-person payment services that provides solutions in Colombia through 
 ```json
 {
     "platformId": "your Platform Id",
-    "orderId": "your-transaction-identifier",
     "paymentId": "602",
     "amount": "100.00",
     "firstName": "customer-name",
@@ -33,7 +32,6 @@ x-signature: signature
 | Name | Type | Description |
 |-------------|--------|-------------------------------|
 | `platformId` | string | Platform Id |
-| `orderId` | string | Merchant's transaction ID. Should be unique. |
 | `paymentId` | integer| 602 - Colombia COP |
 | `amount` | string | The transaction amount. Format should have 2 decimals "100.00". |
 | `docType` | string | Customer's document identifier type, CC for cedula |
