@@ -3,6 +3,8 @@
 ## Base URL
 `https://api.example.com/v1/`
 
+[Security](docs/security.md)
+
 ## Authentication
 All requests require an API key.
 
