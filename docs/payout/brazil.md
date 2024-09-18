@@ -19,7 +19,7 @@ Pay customers in Brazil using the PIX payment method
     "ipAddress": "customer-ip-address"
 }
 ```
-## Create Pix Pay-in
+## Request a payout
 ```http
 POST /payout
 
