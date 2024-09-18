@@ -9,7 +9,6 @@ With this payment method the customer will get a push notification within their 
 ```json
 {
     "platformId": "your Platform Id",
-    "orderId": "your-transaction-identifier",
     "paymentId": "603",
     "amount": "100.00",
     "firstName": "customer-name",
@@ -35,7 +34,6 @@ x-signature: signature
 | Name | Type | Description |
 |-------------|--------|-------------------------------|
 | `platformId` | string | Platform Id |
-| `orderId` | string | Merchant's transaction ID. Should be unique. |
 | `paymentId` | integer| 603 - Mexico MXM |
 | `amount` | string | The transaction amount. Format should have 2 decimals "100.00". |
 | `bank` | string | Customer's bank |
