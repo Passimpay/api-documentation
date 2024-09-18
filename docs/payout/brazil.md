@@ -8,7 +8,7 @@ Pay customers in Brazil using the PIX payment method
 {
     "platformId": "your Platform Id",
     "orderId": "your-transaction-identifier",
-    "paymentId": "601",
+    "paymentId": "600",
     "amount": "100.00",
     "pixKey": "customer-pix-key",
     "pixKeyType": "customer-pix-key-type",
