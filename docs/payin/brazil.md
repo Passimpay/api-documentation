@@ -20,6 +20,7 @@ Charge customers in Brazil using the PIX payment method
 ## Create Pix Pay-in
 ```http
 POST /payin
+
 Content-Type: application/json
 x-signature: signature
 ```
@@ -36,7 +37,7 @@ x-signature: signature
 | `address` | string | Customer address |
 | `ipAddress` | string | Customer IP address |
 
-## Response Body
+## Body of successful response
 ```json
 {
     "result": 1,
@@ -47,7 +48,7 @@ x-signature: signature
 }
 ```
 
-## Response Error Body
+## Body in case of error
 ```json
 {
     "result": 0,
