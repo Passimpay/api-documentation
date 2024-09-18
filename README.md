@@ -11,11 +11,11 @@ All requests require an API key.
 ## Payin
 Charge customers for goods and services
 
-[Brazil](docs/brazil.md)
+[Brazil](docs/payin/brazil.md)
 
-[Argentina](docs/argentina.md)
+[Argentina](docs/payin/argentina.md)
 
-[Colombia](docs/colombia.md)
+[Colombia](docs/payin/colombia.md)
 
-[Mexico](docs/mexico.md)
+[Mexico](docs/payin/mexico.md)
 
