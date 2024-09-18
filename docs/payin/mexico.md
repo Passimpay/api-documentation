@@ -1,4 +1,4 @@
-# Payin Argentina
+# Payin Mexico
 
 Charge customers in Mexico using direct bank transfers payment method.
 
