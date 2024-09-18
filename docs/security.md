@@ -6,7 +6,7 @@ All the communication against and from our API will be signed and the signature 
 
 ## Prerequisites
 ```javascript
-const platformId= 'your-mid';
+const platformId= 'your-platform-id';
 const secret= 'your-api-key';
 const body = {
     "orderId": "your-transaction-identifier",
