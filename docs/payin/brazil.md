@@ -36,5 +36,22 @@ x-signature: signature
 | `address` | string | Customer address |
 | `ipAddress` | string | Customer IP address |
 
+## Response Body
+```json
+{
+    "result": 1,
+    "operationId": "c1b482a8-96ef-4523-89d1-03133b4b1280",
+    "transactionId": "982945b2-2edb-47ad-8ff5-8c175893c80d",
+    "qrCode": "00020101021126510014BR.GOV.BCB.PIX...",
+    "paymentLink": "https://publicexample.com/?id=982945b2-2edb-47ad-8ff5-8c175893c80d&method=pse&token=eyJr..."
+}
+```
 
+## Response Error Body
+```json
+{
+    "result": 0,
+    "message": "BAD-REQUEST",
+}
+```
 
