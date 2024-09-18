@@ -23,13 +23,13 @@ Charge customers for goods and services
 
 ## Payout
 
-[Brazil](docs/payut/brazil.md)
+[Brazil](docs/payout/brazil.md)
 
-[Argentina](docs/payut/argentina.md)
+[Argentina](docs/payout/argentina.md)
 
-[Colombia](docs/payut/colombia.md)
+[Colombia](docs/payout/colombia.md)
 
-[Mexico](docs/payut/mexico.md)
+[Mexico](docs/payout/mexico.md)
 
 ## Check status
 
