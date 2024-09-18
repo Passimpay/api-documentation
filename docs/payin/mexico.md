@@ -21,7 +21,7 @@ With this payment method the customer will transfer the money directly from thei
     "ipAddress": "customer-ip-address"
 }
 ```
-## Create Pix Pay-in
+## Create Pay-in
 ```http
 POST /payin
 
