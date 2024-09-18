@@ -4,7 +4,9 @@
 `https://api.passimpay.io/`
 
 ## Authentication
-All requests require an API key.
+All requests require an Platform ID and API key.
+
+To obtain the Platform ID and API key, you need to create a platform in your personal [account](https://account.passimpay.io/platform/module-add).
 
 [Security](docs/security.md)
 
@@ -38,6 +40,7 @@ Charge customers for goods and services
 ## Webhook notification
 
 The notification URL is specified in the platform settings in the personal account. 
+
 The notification is sent only after a successful incoming transaction.
 
 ### Headers
