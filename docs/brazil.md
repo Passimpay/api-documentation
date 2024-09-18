@@ -20,7 +20,6 @@ Charge customers in Brazil using the PIX payment method
 ## Create Pix Pay-in
 ```http
 POST /payin
-```
 Content-Type: application/json
 x-signature: signature
 ```
