@@ -24,12 +24,17 @@ Content-Type: application/json
 x-signature: signature
 ```
 ## Request Body
-| Параметр | Тип    | Обязательный | Описание                      |
-|----------|--------|--------------|-------------------------------|
-| `name`   | string | да           | Имя пользователя.             |
-| `email`  | string | да           | Адрес электронной почты.      |
-| `age`    | integer| нет          | Возраст пользователя.         |
-| `gender` | string | нет          | Пол пользователя.             |
+| Name | Type | Description |
+|-------------|--------|-------------------------------|
+| `platformId` | string | Platform Id |
+| `orderId` | string | Merchant's transaction ID. Should be unique. |
+| `paymentId` | integer| 600 - Brazil BRL |
+| `amount` | string | The transaction amount. Format should have 2 decimals "100.00". |
+| `docNumber` | string | Customer's document identifier/number |
+| `email` | string | Customer's email |
+| `phone` | string | Customer phone number |
+| `address` | string | Customer address |
+| `ipAddress` | string | Customer IP address |
 
 
 
