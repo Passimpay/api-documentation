@@ -34,7 +34,7 @@ x-signature: signature
 |-------------|--------|-------------------------------|
 | `platformId` | string | Platform Id |
 | `orderId` | string | Merchant's transaction ID. Should be unique. |
-| `paymentId` | integer| 602 - Colombia COL |
+| `paymentId` | integer| 602 - Colombia COP |
 | `amount` | string | The transaction amount. Format should have 2 decimals "100.00". |
 | `docType` | string | Customer's document identifier type, CC for cedula |
 | `docNumber` | string | Customer's document identifier/number |
