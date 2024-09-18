@@ -5,7 +5,7 @@ How to generate signatures?
 All the communication against and from our API will be signed and the signature must be included as header. This signature allows us to certificate data integrity within the communication.
 
 ## Prerequisites
-```
+```javascript
 const merchantId= 'your-mid';
 const secret= 'your-secret';
 const body = {
@@ -20,12 +20,12 @@ const body = {
     "address": "your-user-address",
     "ipAddress": "your-user-ip"
 }
-```
+
 #### Note: The previous body is an example, since it is dynamic and the signature can change according to the body of the request or response.
 
 #### Step 1 - Sorts the json of your request, response or callback payload alphabetically.
 
-```
+```javascript
 function sortObject(obj) {
       if (Array.isArray(obj)) {
         return obj.map(sortObject);
@@ -39,14 +39,14 @@ function sortObject(obj) {
     }
     return obj;
 }
-```
+
 
 #### Step 2 - Create signature.
 
-```
+```javascript
 const signatureContract =`${merchantId};${JSON.stringify(sortObject(body))};${secret}`
 const signature = CryptoJS.HmacSHA256(signatureContract, secret).toString();
-```
+
 
 #### Signature use cases:
 
