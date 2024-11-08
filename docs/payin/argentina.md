@@ -16,7 +16,8 @@ Charge customers in Argentina using pagofacil payment method
     "email": "name@domain.com",
     "phone": "customer-phone-number",
     "address": "customer-address",
-    "ipAddress": "customer-ip-address"
+    "ipAddress": "customer-ip-address",
+    "paymentMethod": "pagofacil"
 }
 ```
 ## Create Pay-in
@@ -40,6 +41,7 @@ x-signature: signature
 | `phone` | string | Customer phone number |
 | `address` | string | Customer address |
 | `ipAddress` | string | Customer IP address |
+| `paymentMethod` | string | pagofacil, rapipago, banktransfer. Default pagofacil |
 
 ## Body of successful response
 ```json
