@@ -18,7 +18,8 @@ It is an in-person payment services that provides solutions in Argentina through
     "email": "name@domain.com",
     "phone": "customer-phone-number",
     "address": "customer-address",
-    "ipAddress": "customer-ip-address"
+    "ipAddress": "customer-ip-address",
+    "paymentMethod": "pagofacil"
 }
 ```
 ## Request a payout
@@ -42,6 +43,7 @@ x-signature: signature
 | `phone` | string | Customer phone number |
 | `address` | string | Customer address |
 | `ipAddress` | string | Customer IP address |
+| `paymentMethod` | string | pagofacil, rapipago, banktransfer. Default pagofacil |
 
 ## Body of successful response
 ```json
