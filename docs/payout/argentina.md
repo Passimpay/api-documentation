@@ -45,7 +45,7 @@ x-signature: signature
 | `ipAddress` | string | Customer IP address |
 | `paymentMethod` | string | pagofacil, rapipago, banktransfer. Default pagofacil |
 
-## If paymentMethod == banktransfer
+### If paymentMethod = banktransfer
 | Name | Type | Description |
 |-------------|--------|-------------------------------|
 | `accountType` | integer | Customer Account Type, 1 for CBU, 2 for CVU, 3 for ALIAS |
